@@ -1,0 +1,33 @@
+# 编译输出
+build/
+output/
+*.elf
+*.hex
+*.bin
+*.axf
+*.o
+*.d
+*.lst
+*.map
+*.sct
+*.i
+
+# keil / MDK
+*.uvgui*
+*.uvoptx
+*.uvprojx.bak
+*.dep
+*.crf
+*.htm
+
+# STM32CubeIDE / EIDE
+.cproject
+.project
+.launch
+.settings/
+Debug/
+Release/
+
+# VSCode
+.vscode/
+.DS_Store
